@@ -89,6 +89,17 @@ O sistema utiliza **MySQL** como banco de dados relacional, estruturado para int
 
 ---
 
+## 💡 Destaques Técnicos e Decisões de Arquitetura
+
+Para garantir a melhor performance, escalabilidade e usabilidade, diversas estratégias modernas foram aplicadas no desenvolvimento:
+
+*   **☁️ Gestão de Mídia na Nuvem (Cloudinary):** Para não sobrecarregar o servidor web e o banco de dados, o upload das fotos do portfólio é enviado via API para o Cloudinary. Ele atua como um CDN (Content Delivery Network), otimizando peso, formato (WebP) e dimensões das imagens *on-the-fly*, garantindo carregamento ultrarrápido.
+*   **🔎 Otimização de Busca (SEO Local):** A Landing Page foi construída com HTML5 semântico, *tags* estruturadas e foco em performance (LCP/CLS). Toda a estrutura de texto é voltada para conversão e SEO Local (Arraial do Cabo e região), melhorando o rankeamento no Google de forma orgânica.
+*   **🖱️ UX/UI e Interatividade (Drag & Drop):** Pensando na experiência do administrador, a reordenação de projetos e depoimentos no painel interno foi desenvolvida com **SortableJS**. Basta "arrastar e soltar" (drag and drop) os cartões para que o portfólio no site público seja atualizado em tempo real, sem necessidade de recarregar a página.
+*   **🧠 Engenharia de Prompt (Google Gemini):** A agência de marketing embutida não é apenas uma simples chamada de API. Os *prompts* foram cuidadosamente desenhados e calibrados nos bastidores para entender materiais de vidraçaria e gerar legendas com gatilhos mentais adequados para as redes sociais do nicho.
+
+---
+
 ## 🛠️ Arquitetura e Tecnologias
 
 O projeto foi construído para ser leve, rápido e sem dependência excessiva de frameworks complexos, focando em performance e manutenção simplificada.
