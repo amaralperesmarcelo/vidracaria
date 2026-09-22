@@ -64,10 +64,12 @@ Uma interface conectada ao **Google Gemini**. O usuário digita o contexto de um
 <br>
 <img src="./docs/img/marketing.jpg" alt="Tela de Marketing IA" width="800">
 
-### 6. CRM e Orçamentos
-Tabela Kanban-style para acompanhar negociações abertas, aprovar orçamentos e gerenciar o faturamento.
+### 6. CRM, Orçamentos e Contratos
+Mesa de vendas para acompanhar negociações abertas, gerar orçamentos pelo WhatsApp e emissão automatizada de contratos em PDF.
 <br>
 <img src="./docs/img/orcamentos.jpg" alt="Tela de Orçamentos CRM" width="800">
+<br><br>
+<img src="./docs/img/contratos.jpg" alt="Tela de Gerador de Contratos" width="800">
 
 ---
 
