@@ -7,6 +7,10 @@
 <h4 align="center">Um sistema completo de landing page dinâmica, portfólio e CRM integrado para gestão de vidraçaria.</h4>
 
 <p align="center">
+  <strong>🔗 Site Ao Vivo: <a href="https://www.viptemper.com.br" target="_blank">viptemper.com.br</a></strong>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Front--end-HTML5%20%7C%20CSS3%20%7C%20JS-E34F26?style=flat-square&logo=html5" alt="Front-end">
   <img src="https://img.shields.io/badge/Back--end-Node.js%20%7C%20Express-339933?style=flat-square&logo=nodedotjs" alt="Back-end">
   <img src="https://img.shields.io/badge/Banco%20de%20Dados-MySQL-4479A1?style=flat-square&logo=mysql" alt="Database">
@@ -70,6 +74,18 @@ Mesa de vendas para acompanhar negociações abertas, gerar orçamentos pelo Wha
 <img src="./docs/img/orcamentos.jpg" alt="Tela de Orçamentos CRM" width="800">
 <br><br>
 <img src="./docs/img/contratos.jpg" alt="Tela de Gerador de Contratos" width="800">
+
+---
+
+## 🗄️ Modelagem do Banco de Dados
+
+O sistema utiliza **MySQL** como banco de dados relacional, estruturado para integrar a vitrine pública ao CRM interno. As principais entidades (tabelas) do projeto incluem:
+
+*   `servicos_vidracaria`: Armazena os projetos do portfólio (título, categoria, descrição, link da imagem otimizada no Cloudinary e ordem na galeria).
+*   `orcamentos`: Coração do CRM, guardando dados dos clientes, status de cada negociação (Aberto, Fechado, Perdido), lista de serviços cotados e datas para funil de vendas.
+*   `analytics_acessos`: Coleta logs para o dashboard de métricas, diferenciando a origem do tráfego (Acesso Direto, Google, Facebook) e trackeando os cliques para o WhatsApp.
+*   `avaliacoes_vidracaria`: Sistema de armazenamento de depoimentos exibidos na Landing Page.
+*   `usuarios_sistema`: Gerenciamento da equipe e permissões de acesso ao painel de controle.
 
 ---
 
