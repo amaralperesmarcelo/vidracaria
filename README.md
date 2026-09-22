@@ -42,32 +42,32 @@ Abaixo, detalhamos cada seção do sistema com suas respectivas telas e funçõe
 ### 1. Landing Page (Página Inicial)
 A porta de entrada do cliente. Focada em conversão, exibe os serviços oferecidos divididos em Vidro Temperado e Esquadrias de Alumínio, além de uma seção de depoimentos reais administráveis pelo painel.
 <br>
-<img src="./docs/img/home.png" alt="Tela da Landing Page" width="800">
+<img src="./docs/img/home.jpg" alt="Tela da Landing Page" width="800">
 
 ### 2. Galeria de Projetos (Detalhes)
 Página dinâmica gerada a partir dos projetos cadastrados no painel. Possui um "Lightbox" premium para visualização ampliada das fotos e vídeos.
 <br>
-<img src="./docs/img/detalhes.png" alt="Galeria de Projetos" width="800">
+<img src="./docs/img/detalhes.jpg" alt="Galeria de Projetos" width="800">
 
 ### 3. Painel Administrativo (Visão Geral)
 A área restrita da diretoria. Daqui, o administrador tem atalhos rápidos para o Analytics, Orçamentos, Contratos, Equipe e Marketing. Também é aqui que se faz o upload de novas fotos (Cloudinary) para o portfólio público.
 <br>
-<img src="./docs/img/painel.png" alt="Painel Administrativo" width="800">
+<img src="./docs/img/painel.jpg" alt="Painel Administrativo" width="800">
 
 ### 4. Inteligência de Analytics
 Dashboards construídos com `Chart.js` mostrando faturamento em tempo real, origens de tráfego, taxa de conversão do WhatsApp e horários de pico no site.
 <br>
-<img src="./docs/img/analytics.png" alt="Tela de Analytics" width="800">
+<img src="./docs/img/analytics.jpg" alt="Tela de Analytics" width="800">
 
 ### 5. Assistente de Marketing (IA)
 Uma interface conectada ao **Google Gemini**. O usuário digita o contexto de uma obra recém-concluída e a IA devolve uma legenda persuasiva e formatada (com emojis e hashtags) pronta para o Instagram.
 <br>
-<img src="./docs/img/marketing.png" alt="Tela de Marketing IA" width="800">
+<img src="./docs/img/marketing.jpg" alt="Tela de Marketing IA" width="800">
 
 ### 6. CRM e Orçamentos
 Tabela Kanban-style para acompanhar negociações abertas, aprovar orçamentos e gerenciar o faturamento.
 <br>
-<img src="./docs/img/orcamentos.png" alt="Tela de Orçamentos CRM" width="800">
+<img src="./docs/img/orcamentos.jpg" alt="Tela de Orçamentos CRM" width="800">
 
 ---
 
